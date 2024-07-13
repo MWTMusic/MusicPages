@@ -35,14 +35,14 @@
   <!-- Compiled and minified CSS, for design -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
@@ -95,23 +95,23 @@
     }
 
     h1 {
-      font-family: 'Comic Neue', cursive;
+      font-family: '', cursive;
     }
 
     p {
-      font-family: 'Comic Neue';
+      font-family: '';
       font-weight: 500;
       font-size: larger;
     }
 
     title {
-      font-family: 'Comic Neue';
+      font-family: '';
       font-weight: 700;
       font-size: xx-large;
     }
 
     span {
-      font-family: 'Comic Neue';
+      font-family: '';
       font-weight: 700;
       font-size: xx-large;
     }
@@ -133,8 +133,8 @@
   <!-- Navigation Bar -->
   <nav class="nav-extended cyan darken-1" style="padding: 10pt;">
     <div class="nav-wrapper">
-      <a style="padding-left: 30pt; font-size: xx-large; font-weight: 700; font-family: 'Comic Neue';" href="#!"
-        class="brand-logo big">MWT's Music</a>
+      <a style="padding-left: 30pt; font-size: xx-large; font-weight: 700;" href="#!"
+        class="brand-logo big"></a>
     </div>
   </nav>
   <!-- Cards -->
@@ -148,10 +148,11 @@
             align="left" style="margin-right: 15pt;margin-bottom: 10pt; border-radius: 0%;">
           <span class="card-title" style="font-size:xx-large; font-weight: 700; text-transform: none;">
             歌曲 :《圈钱赚大米》</span>
-          <p>Lyrics : Mw/T
+            <span class="card-title" style="font-size:x-large;text-transform: none;">
+            <p>Lyrics : Mw/T
            <br>
             Compose / Vocal : Suno
-            <br>
+            <br><span>
             <audio controls>
               <source src="https://gitee.com/ColdMWT/music-cloud/releases/download/Music/bigmoneybigrice.mp3" type="audio/mp3">
 
@@ -202,13 +203,29 @@
  (让我们去赚大把大把的钞票)<br>
  yeah yeah yeah yeah yeah <br>
 
-
-
-                <!-- END,DO NOT CHANGE -->
+               <!-- END,DO NOT CHANGE -->
             </a>
-          </p>
+          </p>    
         </div>
-      </div>
+            </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title" style="font-size:xx-large; font-weight: 700;">下载歌曲项目</span>
+          <p>
+    <!-- Button Layout -->
+            <a class="waves-effect waves-light btn-large cyan darken-1" style="text-transform: none;"
+              href="https://gitee.com/ColdMWT/music-cloud/releases/download/Music/bigmoneybigrice.mp3" target="_blank">
+              <i class="material-icons left">download</i>
+              下载MP3文件
+            </a>
+                <!-- Button Layout -->
+                <a class="waves-effect waves-light btn-large cyan darken-1" style="text-transform: none;"
+                href="https://gitee.com/ColdMWT/music-cloud/releases/download/Music/bigmoneybigrice.txt" target="_blank">
+                <i class="material-icons left">download</i>
+                下载歌词
+              </a>
+
     </div>
   </div>
   <br>
